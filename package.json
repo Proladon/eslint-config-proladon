@@ -1,6 +1,6 @@
 {
   "name": "@proladon/eslint-config-proladon",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "proladon's custom eslint config",
   "author": "Proladon <proladon@gmail.com>",
   "scripts": {

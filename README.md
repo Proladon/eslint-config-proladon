@@ -1,14 +1,12 @@
-# sientech frontend custom eslint rule base on vue2/vue3
+# shelter-zone custom eslint rule base
 
 ## Usage
 
 
 ### Installation
 
-require "eslint-plugin-vue@^8.2.0",please update vue2 project for correct version
-
 ```sh
-yarn add -D @sientech/eslint-config-frontend eslint-plugin-vue
+yarn add -D @shelter-zone/eslint-config-proladon
 ```
 
 ### Configuration
@@ -22,7 +20,7 @@ module.exports = {
     node: true
   },
   extends: [
-    '@sientech/frontend/lib/vue2-essential'
+    '@shelter-zone/frontend/lib/eslintTypescript'
   ],
   parserOptions: {
     ecmaVersion: 2020
@@ -36,12 +34,12 @@ module.exports = {
 ```
 
 available extends:
- - `@sientech/eslint-config-frontend/lib/eslint-base`: define custom eslint rules
- - `@sientech/eslint-config-frontend/lib/vue-base`: define custom vue rules
- - `@sientech/eslint-config-frontend/lib/base`: define custom vue & eslint rules
- - `@sientech/eslint-config-frontend/lib/vue2-essential`: base on `@sientech/eslint-config-frontend/lib/base` and vue-essential rules
- - `@sientech/eslint-config-frontend/lib/vue2-recommended`: base on `@sientech/eslint-config-frontend/lib/base` and vue-recommended rules
- - `@sientech/eslint-config-frontend/lib/vue3-base`: base on `@sientech/eslint-config-frontend/lib/base` and define custom vue3 rules
- - `@sientech/eslint-config-frontend/lib/vue3-essential`: base on `@sientech/eslint-config-frontend/lib/vue3-base` and vue3-essential rules
- - `@sientech/eslint-config-frontend/lib/vue3-recommended`: base on `@sientech/eslint-config-frontend/lib/vue3-base` and vue3-recommended rules
+ - `@shelter-zone/eslint-config-proladon/lib/eslint-base`: define custom eslint rules
+ - `@shelter-zone/eslint-config-proladon/lib/vue-base`: define custom vue rules
+ - `@shelter-zone/eslint-config-proladon/lib/base`: define custom vue & eslint rules
+ - `@shelter-zone/eslint-config-proladon/lib/vue2-essential`: base on `@shelter-zone/eslint-config-proladon/lib/base` and vue-essential rules
+ - `@shelter-zone/eslint-config-proladon/lib/vue2-recommended`: base on `@shelter-zone/eslint-config-proladon/lib/base` and vue-recommended rules
+ - `@shelter-zone/eslint-config-proladon/lib/vue3-base`: base on `@shelter-zone/eslint-config-proladon/lib/base` and define custom vue3 rules
+ - `@shelter-zone/eslint-config-proladon/lib/vue3-essential`: base on `@shelter-zone/eslint-config-proladon/lib/vue3-base` and vue3-essential rules
+ - `@shelter-zone/eslint-config-proladon/lib/vue3-recommended`: base on `@shelter-zone/eslint-config-proladon/lib/vue3-base` and vue3-recommended rules
 

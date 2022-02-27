@@ -11,7 +11,7 @@ yarn add -D @shelter-zone/eslint-config-proladon
 
 ### Configuration
 
-Example `.eslintrc.js`:
+`.eslintrc.js`:
 
 ```js
 module.exports = {
@@ -20,7 +20,7 @@ module.exports = {
     node: true
   },
   extends: [
-    '@shelter-zone/frontend/lib/eslintTypescript'
+    '@shelter-zone/proladon/lib/eslintTypescript'
   ],
   parserOptions: {
     ecmaVersion: 2020
@@ -30,6 +30,32 @@ module.exports = {
   rules: {
 
   }
+}
+```
+
+`.vscode/.settings.json`:
+
+```json
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "eslint.options": {
+        "extensions": [
+            ".html",
+            ".js",
+            ".vue",
+            ".ts"
+        ]
+    },
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "typescript",
+        "vue"
+    ]
 }
 ```
 
